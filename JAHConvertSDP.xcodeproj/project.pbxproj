@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98589B581926A8C4006246EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98589B571926A8C4006246EA /* Cocoa.framework */; };
+		98589B621926A8C4006246EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98589B601926A8C4006246EA /* InfoPlist.strings */; };
+		98589B641926A8C4006246EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98589B631926A8C4006246EA /* main.m */; };
+		98589B681926A8C4006246EA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 98589B661926A8C4006246EA /* Credits.rtf */; };
+		98589B6B1926A8C4006246EA /* JAHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98589B6A1926A8C4006246EA /* JAHAppDelegate.m */; };
+		98589B6E1926A8C4006246EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98589B6C1926A8C4006246EA /* MainMenu.xib */; };
+		98589B701926A8C4006246EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98589B6F1926A8C4006246EA /* Images.xcassets */; };
+		98589B771926A8C4006246EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98589B761926A8C4006246EA /* XCTest.framework */; };
+		98589B781926A8C4006246EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98589B571926A8C4006246EA /* Cocoa.framework */; };
+		98589B801926A8C4006246EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98589B7E1926A8C4006246EA /* InfoPlist.strings */; };
+		98589B821926A8C4006246EA /* JAHConvertSDPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98589B811926A8C4006246EA /* JAHConvertSDPTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98589B791926A8C4006246EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98589B4C1926A8C4006246EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98589B531926A8C4006246EA;
+			remoteInfo = JAHConvertSDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98589B541926A8C4006246EA /* JAHConvertSDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAHConvertSDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98589B571926A8C4006246EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		98589B5A1926A8C4006246EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		98589B5B1926A8C4006246EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98589B5C1926A8C4006246EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98589B5F1926A8C4006246EA /* JAHConvertSDP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAHConvertSDP-Info.plist"; sourceTree = "<group>"; };
+		98589B611926A8C4006246EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98589B631926A8C4006246EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98589B651926A8C4006246EA /* JAHConvertSDP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAHConvertSDP-Prefix.pch"; sourceTree = "<group>"; };
+		98589B671926A8C4006246EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		98589B691926A8C4006246EA /* JAHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAHAppDelegate.h; sourceTree = "<group>"; };
+		98589B6A1926A8C4006246EA /* JAHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAHAppDelegate.m; sourceTree = "<group>"; };
+		98589B6D1926A8C4006246EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		98589B6F1926A8C4006246EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98589B751926A8C4006246EA /* JAHConvertSDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAHConvertSDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98589B761926A8C4006246EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		98589B7D1926A8C4006246EA /* JAHConvertSDPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAHConvertSDPTests-Info.plist"; sourceTree = "<group>"; };
+		98589B7F1926A8C4006246EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98589B811926A8C4006246EA /* JAHConvertSDPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAHConvertSDPTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98589B511926A8C4006246EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98589B581926A8C4006246EA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98589B721926A8C4006246EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98589B781926A8C4006246EA /* Cocoa.framework in Frameworks */,
+				98589B771926A8C4006246EA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98589B4B1926A8C4006246EA = {
+			isa = PBXGroup;
+			children = (
+				98589B5D1926A8C4006246EA /* JAHConvertSDP */,
+				98589B7B1926A8C4006246EA /* JAHConvertSDPTests */,
+				98589B561926A8C4006246EA /* Frameworks */,
+				98589B551926A8C4006246EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98589B551926A8C4006246EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98589B541926A8C4006246EA /* JAHConvertSDP.app */,
+				98589B751926A8C4006246EA /* JAHConvertSDPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98589B561926A8C4006246EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98589B571926A8C4006246EA /* Cocoa.framework */,
+				98589B761926A8C4006246EA /* XCTest.framework */,
+				98589B591926A8C4006246EA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98589B591926A8C4006246EA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98589B5A1926A8C4006246EA /* AppKit.framework */,
+				98589B5B1926A8C4006246EA /* CoreData.framework */,
+				98589B5C1926A8C4006246EA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		98589B5D1926A8C4006246EA /* JAHConvertSDP */ = {
+			isa = PBXGroup;
+			children = (
+				98589B691926A8C4006246EA /* JAHAppDelegate.h */,
+				98589B6A1926A8C4006246EA /* JAHAppDelegate.m */,
+				98589B6C1926A8C4006246EA /* MainMenu.xib */,
+				98589B6F1926A8C4006246EA /* Images.xcassets */,
+				98589B5E1926A8C4006246EA /* Supporting Files */,
+			);
+			path = JAHConvertSDP;
+			sourceTree = "<group>";
+		};
+		98589B5E1926A8C4006246EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98589B5F1926A8C4006246EA /* JAHConvertSDP-Info.plist */,
+				98589B601926A8C4006246EA /* InfoPlist.strings */,
+				98589B631926A8C4006246EA /* main.m */,
+				98589B651926A8C4006246EA /* JAHConvertSDP-Prefix.pch */,
+				98589B661926A8C4006246EA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98589B7B1926A8C4006246EA /* JAHConvertSDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				98589B811926A8C4006246EA /* JAHConvertSDPTests.m */,
+				98589B7C1926A8C4006246EA /* Supporting Files */,
+			);
+			path = JAHConvertSDPTests;
+			sourceTree = "<group>";
+		};
+		98589B7C1926A8C4006246EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98589B7D1926A8C4006246EA /* JAHConvertSDPTests-Info.plist */,
+				98589B7E1926A8C4006246EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98589B531926A8C4006246EA /* JAHConvertSDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98589B851926A8C4006246EA /* Build configuration list for PBXNativeTarget "JAHConvertSDP" */;
+			buildPhases = (
+				98589B501926A8C4006246EA /* Sources */,
+				98589B511926A8C4006246EA /* Frameworks */,
+				98589B521926A8C4006246EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAHConvertSDP;
+			productName = JAHConvertSDP;
+			productReference = 98589B541926A8C4006246EA /* JAHConvertSDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98589B741926A8C4006246EA /* JAHConvertSDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98589B881926A8C4006246EA /* Build configuration list for PBXNativeTarget "JAHConvertSDPTests" */;
+			buildPhases = (
+				98589B711926A8C4006246EA /* Sources */,
+				98589B721926A8C4006246EA /* Frameworks */,
+				98589B731926A8C4006246EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98589B7A1926A8C4006246EA /* PBXTargetDependency */,
+			);
+			name = JAHConvertSDPTests;
+			productName = JAHConvertSDPTests;
+			productReference = 98589B751926A8C4006246EA /* JAHConvertSDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98589B4C1926A8C4006246EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jon Hjelle";
+				TargetAttributes = {
+					98589B741926A8C4006246EA = {
+						TestTargetID = 98589B531926A8C4006246EA;
+					};
+				};
+			};
+			buildConfigurationList = 98589B4F1926A8C4006246EA /* Build configuration list for PBXProject "JAHConvertSDP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98589B4B1926A8C4006246EA;
+			productRefGroup = 98589B551926A8C4006246EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98589B531926A8C4006246EA /* JAHConvertSDP */,
+				98589B741926A8C4006246EA /* JAHConvertSDPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98589B521926A8C4006246EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98589B621926A8C4006246EA /* InfoPlist.strings in Resources */,
+				98589B701926A8C4006246EA /* Images.xcassets in Resources */,
+				98589B681926A8C4006246EA /* Credits.rtf in Resources */,
+				98589B6E1926A8C4006246EA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98589B731926A8C4006246EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98589B801926A8C4006246EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98589B501926A8C4006246EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98589B6B1926A8C4006246EA /* JAHAppDelegate.m in Sources */,
+				98589B641926A8C4006246EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98589B711926A8C4006246EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98589B821926A8C4006246EA /* JAHConvertSDPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98589B7A1926A8C4006246EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98589B531926A8C4006246EA /* JAHConvertSDP */;
+			targetProxy = 98589B791926A8C4006246EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98589B601926A8C4006246EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98589B611926A8C4006246EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98589B661926A8C4006246EA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98589B671926A8C4006246EA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		98589B6C1926A8C4006246EA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98589B6D1926A8C4006246EA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		98589B7E1926A8C4006246EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98589B7F1926A8C4006246EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98589B831926A8C4006246EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		98589B841926A8C4006246EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		98589B861926A8C4006246EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAHConvertSDP/JAHConvertSDP-Prefix.pch";
+				INFOPLIST_FILE = "JAHConvertSDP/JAHConvertSDP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98589B871926A8C4006246EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAHConvertSDP/JAHConvertSDP-Prefix.pch";
+				INFOPLIST_FILE = "JAHConvertSDP/JAHConvertSDP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98589B891926A8C4006246EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAHConvertSDP.app/Contents/MacOS/JAHConvertSDP";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAHConvertSDP/JAHConvertSDP-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JAHConvertSDPTests/JAHConvertSDPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		98589B8A1926A8C4006246EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAHConvertSDP.app/Contents/MacOS/JAHConvertSDP";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAHConvertSDP/JAHConvertSDP-Prefix.pch";
+				INFOPLIST_FILE = "JAHConvertSDPTests/JAHConvertSDPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98589B4F1926A8C4006246EA /* Build configuration list for PBXProject "JAHConvertSDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98589B831926A8C4006246EA /* Debug */,
+				98589B841926A8C4006246EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98589B851926A8C4006246EA /* Build configuration list for PBXNativeTarget "JAHConvertSDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98589B861926A8C4006246EA /* Debug */,
+				98589B871926A8C4006246EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98589B881926A8C4006246EA /* Build configuration list for PBXNativeTarget "JAHConvertSDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98589B891926A8C4006246EA /* Debug */,
+				98589B8A1926A8C4006246EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98589B4C1926A8C4006246EA /* Project object */;
+}
