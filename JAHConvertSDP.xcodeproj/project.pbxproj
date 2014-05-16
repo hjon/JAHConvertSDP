@@ -18,6 +18,8 @@
 		98589B781926A8C4006246EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98589B571926A8C4006246EA /* Cocoa.framework */; };
 		98589B801926A8C4006246EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98589B7E1926A8C4006246EA /* InfoPlist.strings */; };
 		98589B821926A8C4006246EA /* JAHConvertSDPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98589B811926A8C4006246EA /* JAHConvertSDPTests.m */; };
+		98589B911926A91E006246EA /* json.json in Sources */ = {isa = PBXBuildFile; fileRef = 98589B8F1926A91E006246EA /* json.json */; };
+		98589B921926A91E006246EA /* sdp.txt in Sources */ = {isa = PBXBuildFile; fileRef = 98589B901926A91E006246EA /* sdp.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		98589B7D1926A8C4006246EA /* JAHConvertSDPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAHConvertSDPTests-Info.plist"; sourceTree = "<group>"; };
 		98589B7F1926A8C4006246EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98589B811926A8C4006246EA /* JAHConvertSDPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAHConvertSDPTests.m; sourceTree = "<group>"; };
+		98589B8F1926A91E006246EA /* json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
+		98589B901926A91E006246EA /* sdp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sdp.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,10 +152,20 @@
 		98589B7C1926A8C4006246EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98589B8E1926A91E006246EA /* data */,
 				98589B7D1926A8C4006246EA /* JAHConvertSDPTests-Info.plist */,
 				98589B7E1926A8C4006246EA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98589B8E1926A91E006246EA /* data */ = {
+			isa = PBXGroup;
+			children = (
+				98589B8F1926A91E006246EA /* json.json */,
+				98589B901926A91E006246EA /* sdp.txt */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98589B921926A91E006246EA /* sdp.txt in Sources */,
+				98589B911926A91E006246EA /* json.json in Sources */,
 				98589B821926A8C4006246EA /* JAHConvertSDPTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
