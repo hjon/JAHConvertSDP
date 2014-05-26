@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98383F63192EA0A200A414EF /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 98589B8F1926A91E006246EA /* json.json */; };
+		98383F64192EA0A600A414EF /* sdp.txt in Resources */ = {isa = PBXBuildFile; fileRef = 98589B901926A91E006246EA /* sdp.txt */; };
+		98383F65192EA0A800A414EF /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 98589B8F1926A91E006246EA /* json.json */; };
 		98589B581926A8C4006246EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98589B571926A8C4006246EA /* Cocoa.framework */; };
 		98589B621926A8C4006246EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98589B601926A8C4006246EA /* InfoPlist.strings */; };
 		98589B641926A8C4006246EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98589B631926A8C4006246EA /* main.m */; };
@@ -19,7 +22,6 @@
 		98589B801926A8C4006246EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98589B7E1926A8C4006246EA /* InfoPlist.strings */; };
 		98589B821926A8C4006246EA /* JAHConvertSDPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98589B811926A8C4006246EA /* JAHConvertSDPTests.m */; };
 		98589B8D1926A8EB006246EA /* JAHConvertSDP.m in Sources */ = {isa = PBXBuildFile; fileRef = 98589B8C1926A8EB006246EA /* JAHConvertSDP.m */; };
-		98589B911926A91E006246EA /* json.json in Sources */ = {isa = PBXBuildFile; fileRef = 98589B8F1926A91E006246EA /* json.json */; };
 		98589B921926A91E006246EA /* sdp.txt in Sources */ = {isa = PBXBuildFile; fileRef = 98589B901926A91E006246EA /* sdp.txt */; };
 /* End PBXBuildFile section */
 
@@ -250,10 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98383F64192EA0A600A414EF /* sdp.txt in Resources */,
 				98589B621926A8C4006246EA /* InfoPlist.strings in Resources */,
 				98589B701926A8C4006246EA /* Images.xcassets in Resources */,
 				98589B681926A8C4006246EA /* Credits.rtf in Resources */,
 				98589B6E1926A8C4006246EA /* MainMenu.xib in Resources */,
+				98383F63192EA0A200A414EF /* json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98589B801926A8C4006246EA /* InfoPlist.strings in Resources */,
+				98383F65192EA0A800A414EF /* json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				98589B921926A91E006246EA /* sdp.txt in Sources */,
-				98589B911926A91E006246EA /* json.json in Sources */,
 				98589B821926A8C4006246EA /* JAHConvertSDPTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +493,7 @@
 				98589B871926A8C4006246EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98589B881926A8C4006246EA /* Build configuration list for PBXNativeTarget "JAHConvertSDPTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				98589B8A1926A8C4006246EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
