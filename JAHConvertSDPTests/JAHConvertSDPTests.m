@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "JAHConvertSDP.h"
 
 @interface JAHConvertSDPTests : XCTestCase
 
@@ -14,21 +15,28 @@
 
 @implementation JAHConvertSDPTests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown
-{
+- (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+- (void)testSDPToSDP {
+    // convert SDP to objects
+    NSURL* sdpURL = [[NSBundle mainBundle] URLForResource:@"sdp" withExtension:@"txt"];
+    NSString* sdp = [NSString stringWithContentsOfURL:sdpURL encoding:NSUTF8StringEncoding error:nil];
+    id objects = [JAHConvertSDP dictionaryForSDP:sdp withCreatorRole:@"initiator"];
+
+    // Data that is typically unique or time dependent
+    NSString* sid = @"1382398245712";
+    NSString* time = @"1385147470924";
+    NSString* newSDP = [JAHConvertSDP SDPForSession:objects sid:sid time:time];
+
+    XCTAssertTrue([newSDP isEqual:sdp], @"Objects aren't equal");
 }
 
 @end

@@ -10,4 +10,7 @@
 
 @interface JAHConvertSDP : NSObject
 
++ (NSDictionary*)dictionaryForSDP:(NSString*)sdp withCreatorRole:(NSString*)creator;
++ (NSString*)SDPForSession:(NSDictionary*)session sid:(NSString*)sid time:(NSString*)time;
+
 @end
