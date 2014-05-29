@@ -140,3 +140,7 @@ The format for the generated dictionary content is:
 ## License
 
 MIT
+
+## Created By
+
+This was created by [@hjon](http://twitter.com/hjon) with guidance from [@lancestout](http://twitter.com/lancestout).
